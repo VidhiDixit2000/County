@@ -1,25 +1,23 @@
 import { LightningElement } from 'lwc';
-import CAROUSEL_IMAGES from '@salesforce/resourceUrl/Images';
-
 export default class CustomCarouselWrapper extends LightningElement {
     blocks=[
         {
-            image:CAROUSEL_IMAGES+'/Images/Image-1.jpeg',
+            image:"https://countyofcolumbiana123--columdev.sandbox.file.force.com/servlet/servlet.ImageServer?id=015DS000002cCGX&oid=00DDS000000t9TX&lastMod=1696937119000",
         },
         {
-            image:'${CAROUSEL_IMAGES}/Images/Image-2.jpeg',
+            image:"https://countyofcolumbiana123--columdev.sandbox.file.force.com/servlet/servlet.ImageServer?id=015DS000002cCGh&oid=00DDS000000t9TX&lastMod=16969371580000",
         },
         {
-            image:'${CAROUSEL_IMAGES}/Images/Image-3.jpeg',
+            image:"https://countyofcolumbiana123--columdev.sandbox.file.force.com/servlet/servlet.ImageServer?id=015DS000002cCGm&oid=00DDS000000t9TX&lastMod=1696937211000",
         },
         {
-            image:'${CAROUSEL_IMAGES}/Images/Image-4.jpeg',
+            image:"https://countyofcolumbiana123--columdev.sandbox.file.force.com/servlet/servlet.ImageServer?id=015DS000002cCGr&oid=00DDS000000t9TX&lastMod=1696937254000",
         },
         {
-            image:'${CAROUSEL_IMAGES}/Images/Image-5.jpeg',
+            image:"https://countyofcolumbiana123--columdev.sandbox.file.force.com/servlet/servlet.ImageServer?id=015DS000002cCGw&oid=00DDS000000t9TX&lastMod=1696937305000",
         },
         {
-            image:'${CAROUSEL_IMAGES}/Images/Resiliency center.png',
+            image:"https://countyofcolumbiana123--columdev.sandbox.file.force.com/servlet/servlet.ImageServer?id=015DS000002cCH1&oid=00DDS000000t9TX&lastMod=1696937347000",
         }
     ];
 }
