@@ -1,7 +1,16 @@
 <template>
-   <div>
+  <div class="container">
     <template for:each={slidesData} for:item="slide">
-       <img src ={slide.image} key={slide.id}/>
+      <div class={slide.cardClasses} key={slide.slideIndex}>
+         <img src ={slide.image} />
+      </div> 
     </template>
-   </div> 
-</template>
+   </div>
+ <div class="slds-text-align_center slds-p-around_medium">
+   <template for:each={slidesData} for:item="slide">
+      <span class={slide.dotClasses} data-id={slide.slideIndex} key={slide.slideIndex} ></span>
+   </template>
+   
+    
+ </div>
+ </template>
